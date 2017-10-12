@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C761DAC31E024B0600BB9E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761DAC21E024B0600BB9E0C /* AppDelegate.swift */; };
+		C761DAC51E024B0600BB9E0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761DAC41E024B0600BB9E0C /* ViewController.swift */; };
+		C761DACA1E024B0600BB9E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C761DAC91E024B0600BB9E0C /* Assets.xcassets */; };
+		C761DACD1E024B0600BB9E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C761DACB1E024B0600BB9E0C /* LaunchScreen.storyboard */; };
+		C761DAD81E024B0600BB9E0C /* Lazy_ThermometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761DAD71E024B0600BB9E0C /* Lazy_ThermometerTests.swift */; };
+		C761DAE31E024B0600BB9E0C /* Lazy_ThermometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761DAE21E024B0600BB9E0C /* Lazy_ThermometerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C761DAD41E024B0600BB9E0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C761DAB71E024B0600BB9E0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C761DABE1E024B0600BB9E0C;
+			remoteInfo = "Lazy Thermometer";
+		};
+		C761DADF1E024B0600BB9E0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C761DAB71E024B0600BB9E0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C761DABE1E024B0600BB9E0C;
+			remoteInfo = "Lazy Thermometer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C761DABF1E024B0600BB9E0C /* LazyThermometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyThermometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C761DAC21E024B0600BB9E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C761DAC41E024B0600BB9E0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C761DAC91E024B0600BB9E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C761DACC1E024B0600BB9E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C761DACE1E024B0600BB9E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C761DAD31E024B0600BB9E0C /* LazyThermometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyThermometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C761DAD71E024B0600BB9E0C /* Lazy_ThermometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy_ThermometerTests.swift; sourceTree = "<group>"; };
+		C761DAD91E024B0600BB9E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C761DADE1E024B0600BB9E0C /* LazyThermometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyThermometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C761DAE21E024B0600BB9E0C /* Lazy_ThermometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy_ThermometerUITests.swift; sourceTree = "<group>"; };
+		C761DAE41E024B0600BB9E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C761DABC1E024B0600BB9E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C761DAD01E024B0600BB9E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C761DADB1E024B0600BB9E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C761DAB61E024B0600BB9E0C = {
+			isa = PBXGroup;
+			children = (
+				C761DAC11E024B0600BB9E0C /* LazyThermometer */,
+				C761DAD61E024B0600BB9E0C /* LazyThermometerTests */,
+				C761DAE11E024B0600BB9E0C /* LazyThermometerUITests */,
+				C761DAC01E024B0600BB9E0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C761DAC01E024B0600BB9E0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C761DABF1E024B0600BB9E0C /* LazyThermometer.app */,
+				C761DAD31E024B0600BB9E0C /* LazyThermometerTests.xctest */,
+				C761DADE1E024B0600BB9E0C /* LazyThermometerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C761DAC11E024B0600BB9E0C /* LazyThermometer */ = {
+			isa = PBXGroup;
+			children = (
+				C761DAC21E024B0600BB9E0C /* AppDelegate.swift */,
+				C761DAC41E024B0600BB9E0C /* ViewController.swift */,
+				C761DAC91E024B0600BB9E0C /* Assets.xcassets */,
+				C761DACB1E024B0600BB9E0C /* LaunchScreen.storyboard */,
+				C761DACE1E024B0600BB9E0C /* Info.plist */,
+			);
+			path = LazyThermometer;
+			sourceTree = "<group>";
+		};
+		C761DAD61E024B0600BB9E0C /* LazyThermometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C761DAD71E024B0600BB9E0C /* Lazy_ThermometerTests.swift */,
+				C761DAD91E024B0600BB9E0C /* Info.plist */,
+			);
+			path = LazyThermometerTests;
+			sourceTree = "<group>";
+		};
+		C761DAE11E024B0600BB9E0C /* LazyThermometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C761DAE21E024B0600BB9E0C /* Lazy_ThermometerUITests.swift */,
+				C761DAE41E024B0600BB9E0C /* Info.plist */,
+			);
+			path = LazyThermometerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C761DABE1E024B0600BB9E0C /* LazyThermometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C761DAE71E024B0600BB9E0C /* Build configuration list for PBXNativeTarget "LazyThermometer" */;
+			buildPhases = (
+				C761DABB1E024B0600BB9E0C /* Sources */,
+				C761DABC1E024B0600BB9E0C /* Frameworks */,
+				C761DABD1E024B0600BB9E0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazyThermometer;
+			productName = "Lazy Thermometer";
+			productReference = C761DABF1E024B0600BB9E0C /* LazyThermometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C761DAD21E024B0600BB9E0C /* LazyThermometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C761DAEA1E024B0600BB9E0C /* Build configuration list for PBXNativeTarget "LazyThermometerTests" */;
+			buildPhases = (
+				C761DACF1E024B0600BB9E0C /* Sources */,
+				C761DAD01E024B0600BB9E0C /* Frameworks */,
+				C761DAD11E024B0600BB9E0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C761DAD51E024B0600BB9E0C /* PBXTargetDependency */,
+			);
+			name = LazyThermometerTests;
+			productName = "Lazy ThermometerTests";
+			productReference = C761DAD31E024B0600BB9E0C /* LazyThermometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C761DADD1E024B0600BB9E0C /* LazyThermometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C761DAED1E024B0600BB9E0C /* Build configuration list for PBXNativeTarget "LazyThermometerUITests" */;
+			buildPhases = (
+				C761DADA1E024B0600BB9E0C /* Sources */,
+				C761DADB1E024B0600BB9E0C /* Frameworks */,
+				C761DADC1E024B0600BB9E0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C761DAE01E024B0600BB9E0C /* PBXTargetDependency */,
+			);
+			name = LazyThermometerUITests;
+			productName = "Lazy ThermometerUITests";
+			productReference = C761DADE1E024B0600BB9E0C /* LazyThermometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C761DAB71E024B0600BB9E0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "yAli Solutions";
+				TargetAttributes = {
+					C761DABE1E024B0600BB9E0C = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
+					};
+					C761DAD21E024B0600BB9E0C = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = C761DABE1E024B0600BB9E0C;
+					};
+					C761DADD1E024B0600BB9E0C = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = C761DABE1E024B0600BB9E0C;
+					};
+				};
+			};
+			buildConfigurationList = C761DABA1E024B0600BB9E0C /* Build configuration list for PBXProject "LazyThermometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C761DAB61E024B0600BB9E0C;
+			productRefGroup = C761DAC01E024B0600BB9E0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C761DABE1E024B0600BB9E0C /* LazyThermometer */,
+				C761DAD21E024B0600BB9E0C /* LazyThermometerTests */,
+				C761DADD1E024B0600BB9E0C /* LazyThermometerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C761DABD1E024B0600BB9E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C761DACD1E024B0600BB9E0C /* LaunchScreen.storyboard in Resources */,
+				C761DACA1E024B0600BB9E0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C761DAD11E024B0600BB9E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C761DADC1E024B0600BB9E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C761DABB1E024B0600BB9E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C761DAC51E024B0600BB9E0C /* ViewController.swift in Sources */,
+				C761DAC31E024B0600BB9E0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C761DACF1E024B0600BB9E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C761DAD81E024B0600BB9E0C /* Lazy_ThermometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C761DADA1E024B0600BB9E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C761DAE31E024B0600BB9E0C /* Lazy_ThermometerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C761DAD51E024B0600BB9E0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C761DABE1E024B0600BB9E0C /* LazyThermometer */;
+			targetProxy = C761DAD41E024B0600BB9E0C /* PBXContainerItemProxy */;
+		};
+		C761DAE01E024B0600BB9E0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C761DABE1E024B0600BB9E0C /* LazyThermometer */;
+			targetProxy = C761DADF1E024B0600BB9E0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C761DACB1E024B0600BB9E0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C761DACC1E024B0600BB9E0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C761DAE51E024B0600BB9E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C761DAE61E024B0600BB9E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C761DAE81E024B0600BB9E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lazy Thermometer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yalisolutions.Lazy-Thermometer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C761DAE91E024B0600BB9E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lazy Thermometer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yalisolutions.Lazy-Thermometer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C761DAEB1E024B0600BB9E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lazy ThermometerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yalisolutions.Lazy-ThermometerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LazyThermometer.app/LazyThermometer";
+			};
+			name = Debug;
+		};
+		C761DAEC1E024B0600BB9E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lazy ThermometerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yalisolutions.Lazy-ThermometerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LazyThermometer.app/LazyThermometer";
+			};
+			name = Release;
+		};
+		C761DAEE1E024B0600BB9E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lazy ThermometerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yalisolutions.Lazy-ThermometerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Lazy Thermometer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C761DAEF1E024B0600BB9E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lazy ThermometerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yalisolutions.Lazy-ThermometerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Lazy Thermometer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C761DABA1E024B0600BB9E0C /* Build configuration list for PBXProject "LazyThermometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C761DAE51E024B0600BB9E0C /* Debug */,
+				C761DAE61E024B0600BB9E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C761DAE71E024B0600BB9E0C /* Build configuration list for PBXNativeTarget "LazyThermometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C761DAE81E024B0600BB9E0C /* Debug */,
+				C761DAE91E024B0600BB9E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C761DAEA1E024B0600BB9E0C /* Build configuration list for PBXNativeTarget "LazyThermometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C761DAEB1E024B0600BB9E0C /* Debug */,
+				C761DAEC1E024B0600BB9E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C761DAED1E024B0600BB9E0C /* Build configuration list for PBXNativeTarget "LazyThermometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C761DAEE1E024B0600BB9E0C /* Debug */,
+				C761DAEF1E024B0600BB9E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C761DAB71E024B0600BB9E0C /* Project object */;
+}
