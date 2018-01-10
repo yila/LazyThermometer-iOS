@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BADF8F71FFEA3E9009702A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BADF8F61FFEA3E9009702A7 /* Main.storyboard */; };
+		2BC6992F2006B145001B2FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC6992E2006B145001B2FFF /* LaunchScreen.storyboard */; };
 		C761DAC31E024B0600BB9E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761DAC21E024B0600BB9E0C /* AppDelegate.swift */; };
 		C761DAC51E024B0600BB9E0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761DAC41E024B0600BB9E0C /* ViewController.swift */; };
 		C761DACA1E024B0600BB9E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C761DAC91E024B0600BB9E0C /* Assets.xcassets */; };
-		C761DACD1E024B0600BB9E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C761DACB1E024B0600BB9E0C /* LaunchScreen.storyboard */; };
 		C761DAD81E024B0600BB9E0C /* Lazy_ThermometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761DAD71E024B0600BB9E0C /* Lazy_ThermometerTests.swift */; };
 		C761DAE31E024B0600BB9E0C /* Lazy_ThermometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761DAE21E024B0600BB9E0C /* Lazy_ThermometerUITests.swift */; };
 /* End PBXBuildFile section */
@@ -33,11 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BADF8F61FFEA3E9009702A7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2BC6992E2006B145001B2FFF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C761DABF1E024B0600BB9E0C /* LazyThermometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyThermometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C761DAC21E024B0600BB9E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C761DAC41E024B0600BB9E0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C761DAC91E024B0600BB9E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C761DACC1E024B0600BB9E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C761DACE1E024B0600BB9E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C761DAD31E024B0600BB9E0C /* LazyThermometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyThermometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C761DAD71E024B0600BB9E0C /* Lazy_ThermometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy_ThermometerTests.swift; sourceTree = "<group>"; };
@@ -98,8 +100,9 @@
 				C761DAC21E024B0600BB9E0C /* AppDelegate.swift */,
 				C761DAC41E024B0600BB9E0C /* ViewController.swift */,
 				C761DAC91E024B0600BB9E0C /* Assets.xcassets */,
-				C761DACB1E024B0600BB9E0C /* LaunchScreen.storyboard */,
 				C761DACE1E024B0600BB9E0C /* Info.plist */,
+				2BADF8F61FFEA3E9009702A7 /* Main.storyboard */,
+				2BC6992E2006B145001B2FFF /* LaunchScreen.storyboard */,
 			);
 			path = LazyThermometer;
 			sourceTree = "<group>";
@@ -185,7 +188,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "yAli Solutions";
 				TargetAttributes = {
 					C761DABE1E024B0600BB9E0C = {
@@ -229,8 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C761DACD1E024B0600BB9E0C /* LaunchScreen.storyboard in Resources */,
+				2BC6992F2006B145001B2FFF /* LaunchScreen.storyboard in Resources */,
 				C761DACA1E024B0600BB9E0C /* Assets.xcassets in Resources */,
+				2BADF8F71FFEA3E9009702A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,17 +295,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		C761DACB1E024B0600BB9E0C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C761DACC1E024B0600BB9E0C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		C761DAE51E024B0600BB9E0C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -311,13 +304,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -355,13 +356,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -380,6 +389,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
