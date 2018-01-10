@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // This is the first method that gets called by the framework
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        if let window = UIWindow(frame: UIScreen.main.bounds){
+        if window == UIWindow(frame: UIScreen.main.bounds){
             
         }
         return true
