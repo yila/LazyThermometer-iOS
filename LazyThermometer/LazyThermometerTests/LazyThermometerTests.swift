@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import Lazy_Thermometer
+@testable import LazyThermometer
 
-class Lazy_ThermometerTests: XCTestCase {
+class LazyThermometerTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

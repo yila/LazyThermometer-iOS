@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lazy_ThermometerUITests: XCTestCase {
+class LazyThermometerUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

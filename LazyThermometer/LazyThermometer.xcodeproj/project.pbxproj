@@ -12,8 +12,8 @@
 		C761DAC31E024B0600BB9E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761DAC21E024B0600BB9E0C /* AppDelegate.swift */; };
 		C761DAC51E024B0600BB9E0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761DAC41E024B0600BB9E0C /* ViewController.swift */; };
 		C761DACA1E024B0600BB9E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C761DAC91E024B0600BB9E0C /* Assets.xcassets */; };
-		C761DAD81E024B0600BB9E0C /* Lazy_ThermometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761DAD71E024B0600BB9E0C /* Lazy_ThermometerTests.swift */; };
-		C761DAE31E024B0600BB9E0C /* Lazy_ThermometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761DAE21E024B0600BB9E0C /* Lazy_ThermometerUITests.swift */; };
+		C761DAD81E024B0600BB9E0C /* LazyThermometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761DAD71E024B0600BB9E0C /* LazyThermometerTests.swift */; };
+		C761DAE31E024B0600BB9E0C /* LazyThermometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761DAE21E024B0600BB9E0C /* LazyThermometerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +42,10 @@
 		C761DAC91E024B0600BB9E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C761DACE1E024B0600BB9E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C761DAD31E024B0600BB9E0C /* LazyThermometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyThermometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C761DAD71E024B0600BB9E0C /* Lazy_ThermometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy_ThermometerTests.swift; sourceTree = "<group>"; };
+		C761DAD71E024B0600BB9E0C /* LazyThermometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyThermometerTests.swift; sourceTree = "<group>"; };
 		C761DAD91E024B0600BB9E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C761DADE1E024B0600BB9E0C /* LazyThermometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyThermometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C761DAE21E024B0600BB9E0C /* Lazy_ThermometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy_ThermometerUITests.swift; sourceTree = "<group>"; };
+		C761DAE21E024B0600BB9E0C /* LazyThermometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyThermometerUITests.swift; sourceTree = "<group>"; };
 		C761DAE41E024B0600BB9E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +110,7 @@
 		C761DAD61E024B0600BB9E0C /* LazyThermometerTests */ = {
 			isa = PBXGroup;
 			children = (
-				C761DAD71E024B0600BB9E0C /* Lazy_ThermometerTests.swift */,
+				C761DAD71E024B0600BB9E0C /* LazyThermometerTests.swift */,
 				C761DAD91E024B0600BB9E0C /* Info.plist */,
 			);
 			path = LazyThermometerTests;
@@ -119,7 +119,7 @@
 		C761DAE11E024B0600BB9E0C /* LazyThermometerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C761DAE21E024B0600BB9E0C /* Lazy_ThermometerUITests.swift */,
+				C761DAE21E024B0600BB9E0C /* LazyThermometerUITests.swift */,
 				C761DAE41E024B0600BB9E0C /* Info.plist */,
 			);
 			path = LazyThermometerUITests;
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C761DAD81E024B0600BB9E0C /* Lazy_ThermometerTests.swift in Sources */,
+				C761DAD81E024B0600BB9E0C /* LazyThermometerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C761DAE31E024B0600BB9E0C /* Lazy_ThermometerUITests.swift in Sources */,
+				C761DAE31E024B0600BB9E0C /* LazyThermometerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
