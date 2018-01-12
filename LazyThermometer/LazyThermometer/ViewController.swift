@@ -12,6 +12,11 @@ class ViewController: UIViewController {
 
     //MARK: Properties
     
+    @IBOutlet weak var targetTemperature: UIView!
+    @IBOutlet weak var targetTemperatureLabel: UILabel!
+    @IBOutlet weak var currentTemperatureDisplay: UIView!
+    @IBOutlet weak var currentTemperatureLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

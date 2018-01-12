@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="mf7-2C-tjN">
             <objects>
-                <viewController id="yJ1-SJ-4cz" sceneMemberID="viewController">
+                <viewController id="yJ1-SJ-4cz" customClass="ViewController" customModule="LazyThermometer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Z5Y-s3-jFS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,6 +46,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="34Q-ag-cgx"/>
                     </view>
+                    <connections>
+                        <outlet property="currentTemperatureDisplay" destination="G2S-Nd-FLx" id="KU3-fA-YBx"/>
+                        <outlet property="currentTemperatureLabel" destination="tNi-e3-lT4" id="VX5-aF-JW5"/>
+                        <outlet property="targetTemperature" destination="npm-ix-XCs" id="kvS-h5-E30"/>
+                        <outlet property="targetTemperatureLabel" destination="4Cm-3v-9gs" id="teu-va-ZO7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m9g-m4-F7D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
