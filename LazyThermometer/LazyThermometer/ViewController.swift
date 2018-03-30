@@ -12,9 +12,10 @@ class ViewController: UIViewController {
 
     //MARK: Properties
     
+    @IBOutlet weak var temperatureUnitSelector: UIPickerView!
     @IBOutlet weak var targetTemperature: UIView!
     @IBOutlet weak var targetTemperatureLabel: UILabel!
-    @IBOutlet weak var currentTemperatureDisplay: UIView!
+    @IBOutlet weak var currentTemperature: UIView!
     @IBOutlet weak var currentTemperatureLabel: UILabel!
     
     override func viewDidLoad() {
