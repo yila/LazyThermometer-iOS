@@ -51,11 +51,11 @@
                         <viewLayoutGuide key="safeArea" id="34Q-ag-cgx"/>
                     </view>
                     <connections>
-                        <outlet property="currentTemperatureLabel" destination="tNi-e3-lT4" id="VX5-aF-JW5"/>
-                        <outlet property="targetTemperatureLabel" destination="4Cm-3v-9gs" id="teu-va-ZO7"/>
                         <outlet property="currentTemperature" destination="G2S-Nd-FLx" id="6A1-sb-JH9"/>
+                        <outlet property="currentTemperatureLabel" destination="tNi-e3-lT4" id="VX5-aF-JW5"/>
                         <outlet property="targetTemperature" destination="npm-ix-XCs" id="fjG-2f-B6j"/>
-                        <outlet property="temperatureUnitSelector" destination="Apx-zh-7SK" id="mbG-44-eqd"/>
+                        <outlet property="targetTemperatureLabel" destination="4Cm-3v-9gs" id="teu-va-ZO7"/>
+                        <outlet property="temperatureUnitPicker" destination="Apx-zh-7SK" id="gbg-jD-SYp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m9g-m4-F7D" userLabel="First Responder" sceneMemberID="firstResponder"/>
