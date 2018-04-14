@@ -13,11 +13,11 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
 
     //MARK: Properties
     
-    @IBOutlet weak var temperatureUnitPicker: UIPickerView!
-    @IBOutlet weak var targetTemperature: UIView!
-    @IBOutlet weak var targetTemperatureLabel: UILabel!
-    @IBOutlet weak var currentTemperature: UIView!
-    @IBOutlet weak var currentTemperatureLabel: UILabel!
+    @IBOutlet private weak var temperatureUnitPicker: UIPickerView!
+    @IBOutlet private weak var targetTemperatureLabel: UILabel!
+    @IBOutlet private weak var targetTemperature: UITextField!
+    @IBOutlet private weak var currentTemperatureLabel: UILabel!
+    @IBOutlet private weak var currentTemperature: UILabel!
     var temperatureUnitsPickerData: [String] = ["Farenheit", "Celcius"]
     override func viewDidLoad() {
         super.viewDidLoad()
