@@ -14,8 +14,6 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     //MARK: Properties
     
     @IBOutlet private weak var temperatureUnitPicker: UIPickerView!
-    @IBOutlet private weak var targetTemperatureLabel: UILabel!
-    @IBOutlet private weak var targetTemperature: UITextField!
     @IBOutlet private weak var currentTemperatureLabel: UILabel!
     @IBOutlet private weak var currentTemperature: UILabel!
     var temperatureUnitsPickerData: [String] = ["Farenheit", "Celcius"]

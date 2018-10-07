@@ -58,7 +58,7 @@
                         <outlet property="currentTemperature" destination="MDt-t7-sAS" id="POc-FQ-wo6"/>
                         <outlet property="currentTemperatureLabel" destination="tNi-e3-lT4" id="VX5-aF-JW5"/>
                         <outlet property="targetTemperature" destination="EGG-Bq-FCY" id="4P7-d9-Aj2"/>
-                        <outlet property="targetTemperatureLabel" destination="4Cm-3v-9gs" id="teu-va-ZO7"/>
+                        <outlet property="currentTemperatureLabel" destination="uAb-Xl-20A" id="nq8-gc-K2V"/>
                         <outlet property="temperatureUnitPicker" destination="Apx-zh-7SK" id="gbg-jD-SYp"/>
                     </connections>
                 </viewController>
