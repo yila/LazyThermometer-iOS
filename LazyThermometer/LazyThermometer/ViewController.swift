@@ -13,13 +13,18 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
 
     //MARK: Properties
     
+    @IBOutlet weak var currentTemperatureLabel: UILabel!
     @IBOutlet private weak var temperatureUnitPicker: UIPickerView!
+    @IBOutlet private weak var targetTemperatureField: UITextField!
     var temperatureUnitsPickerData: [String] = ["Farenheit", "Celcius"]
     override func viewDidLoad() {
         super.viewDidLoad()
         temperatureUnitPicker.delegate = self
         temperatureUnitPicker.dataSource = self
         
+        targetTemperatureField.placeholder = "350"
+        targetTemperatureField.textAlignment = NSTextAlignment.center
+        currentTemperatureLabel.text = "loading..."
     }
 
     override func didReceiveMemoryWarning() {
