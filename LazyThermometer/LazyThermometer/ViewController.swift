@@ -24,6 +24,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         
         targetTemperatureField.placeholder = "350"
         targetTemperatureField.textAlignment = NSTextAlignment.center
+        targetTemperatureField.keyboardType = UIKeyboardType.numberPad
         currentTemperatureLabel.text = "loading..."
         
         Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (_) in
