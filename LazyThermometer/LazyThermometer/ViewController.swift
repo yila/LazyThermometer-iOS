@@ -25,6 +25,11 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         targetTemperatureField.placeholder = "350"
         targetTemperatureField.textAlignment = NSTextAlignment.center
         currentTemperatureLabel.text = "loading..."
+        
+        Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (_) in
+            self.currentTemperatureLabel.text = String(Int.random(in: 0...350))
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
