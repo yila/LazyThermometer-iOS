@@ -28,6 +28,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         
         Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (_) in
             DispatchQueue.global(qos: .background).async {
+                sleep(3)
                 DispatchQueue.main.async {
                     self.currentTemperatureLabel.text = String(Int.random(in: 0...350))
                 }
