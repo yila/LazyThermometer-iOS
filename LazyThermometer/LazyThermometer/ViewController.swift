@@ -27,7 +27,11 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         currentTemperatureLabel.text = "loading..."
         
         Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (_) in
-            self.currentTemperatureLabel.text = String(Int.random(in: 0...350))
+            DispatchQueue.global(qos: .background).async {
+                DispatchQueue.main.async {
+                    self.currentTemperatureLabel.text = String(Int.random(in: 0...350))
+                }
+            }
         }
         
     }
